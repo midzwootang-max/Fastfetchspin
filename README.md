@@ -5,7 +5,7 @@ A slot machine logo randomizer for [fastfetch](https://github.com/fastfetch-cli/
 ## Requirements
 
 - **Python 3.8+**
-- **fastfetch** — must be installed and available on your `PATH`
+- **fastfetch**, must be installed and available on your `PATH`
   - Fedora/RHEL: `sudo dnf install fastfetch`
   - Arch: `sudo pacman -S fastfetch`
   - Ubuntu/Debian: `sudo apt install fastfetch`
