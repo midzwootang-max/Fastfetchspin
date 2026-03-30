@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "fastfetch-spin"
+version = "1.0.0"
+description = "Slot machine logo randomizer for fastfetch"
+requires-python = ">=3.8"
+
+[project.scripts]
+fastfetch-spin = "fastfetch_spin:main"
+
+[tool.setuptools]
+py-modules = ["fastfetch_spin"]
